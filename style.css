@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: fira Sans;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.global_padding{
+    padding: 0px 50px;
+}
+
+.nav_bar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+.nav_bar h1{
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+
+.nav_bar a{
+    color: #006A50;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 1px solid #006A50;
+    border-radius: .8rem;
+    padding: 1.5rem 3rem;
+    margin-left: 1.6rem;
+
+}
+
+
+/* hero section starts here */
+.hero_section{
+    height: 56rem;
+    width: 138rem;
+
+}
+
+.hero_container{
+background-color: #C6E4D6;
+height: 56rem;
+width: 144rem;
+border-radius: 2.4rem;
+display: flex;
+align-items: center;
+padding: 10rem 8rem;
+
+}
+.hero_left{
+    width: 60%;
+}
+.hero_left p{
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.hero_left h1{
+    font-size: 5.2rem;
+    color: #0E0E0E;
+    font-weight: bold;
+    margin-top: 1.6rem;
+}
+.hero_left a{
+    background-color: #006A50;
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.7rem 3.4rem;
+    margin-top: 1.6rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pillar_section {
+
+    height: 500px;
+    width: 100%;
+    border: 1px solid red;
+
+
+}
+.pillar_section h1{
+    font-size: 3.6rem;
+    padding: 4rem 0rem;
+}
+
+.pillar_container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inner_pillar{
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.inner_pillar img{
+    height: 80px;
+    width: 80px;
+}
+.inner_pillar h3{
+    font-size: 2.1rem;
+
+}
+.inner_pillar p{
+    font-size: 1.4rem;
+    color: rgb(89, 89, 88);
+}
+
+
+/* Vision section starts here */
+.vision_section {
+
+    height: 500px;
+    width: 100%;
+    border: 1px solid red;
+
+
+}
+.vision_section h1{
+    font-size: 3.6rem;
+    padding: 1.4rem 0rem;
+}
+.vision_section p{
+    font-size: 1.4rem;
+
+}
+
+.vision_container{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 2rem;
+
+}
+
+.inner_vision_blue{
+    background-color:#ebf1fb;
+    height: 325px;
+    width: 410px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    
+}
+
+.inner_vision_yellow{
+    background-color: #eafff5;
+    height: 325px;
+    width: 410px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}.inner_vision_green{
+    background-color: #f7f0df;
+    height: 325px;
+    width: 410px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.inner_vision_blue img, .inner_vision_green img ,.inner_vision_yellow img{
+    height: 80px;
+    width: 80px;
+}
+.inner_vision_blue h3, .inner_vision_green h3 ,.inner_vision_yellow h3{
+    font-size: 2.1rem;
+
+}
+.inner_vision_blue p, .inner_vision_green p ,.inner_vision_yellow p{
+    font-size: 1.4rem;
+    color: rgb(89, 89, 88);
+}
+
+#blue{
+    color: #fff;
+    background-color: #5490F5;
+    padding: 1.4rem 1.4rem;
+    width: 40%;
+    border-radius: .8rem;
+    border: none;
+    font-weight: bold;
+}
+
+#green{
+    color: #fff;
+    background-color: #09A15C;
+    padding: 1.4rem 1.4rem;
+    width: 40%;
+    border-radius: .8rem;
+    border: none;
+    font-weight: bold;
+}
+#yellow{
+    color: #fff;
+    background-color: #FFC239;
+    padding: 1.4rem 1.4rem;
+    width: 40%;
+    border-radius: .8rem;
+    border: none;
+    font-weight: bold;
+}
+
+/* Vision section ends here */
+
